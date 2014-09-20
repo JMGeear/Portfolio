@@ -65,16 +65,46 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\foundation.css" />
+    <Content Include="CSS\foundation.min.css" />
+    <Content Include="CSS\normalize.css" />
+    <Content Include="CSS\reset.css" />
+    <Content Include="CSS\Styles.css" />
+    <Content Include="humans.txt" />
     <Content Include="index.html" />
+    <Content Include="JS\foundation.min.js" />
+    <Content Include="JS\foundation\foundation.abide.js" />
+    <Content Include="JS\foundation\foundation.accordion.js" />
+    <Content Include="JS\foundation\foundation.alert.js" />
+    <Content Include="JS\foundation\foundation.clearing.js" />
+    <Content Include="JS\foundation\foundation.dropdown.js" />
+    <Content Include="JS\foundation\foundation.equalizer.js" />
+    <Content Include="JS\foundation\foundation.interchange.js" />
+    <Content Include="JS\foundation\foundation.joyride.js" />
+    <Content Include="JS\foundation\foundation.js" />
+    <Content Include="JS\foundation\foundation.magellan.js" />
+    <Content Include="JS\foundation\foundation.offcanvas.js" />
+    <Content Include="JS\foundation\foundation.orbit.js" />
+    <Content Include="JS\foundation\foundation.reveal.js" />
+    <Content Include="JS\foundation\foundation.slider.js" />
+    <Content Include="JS\foundation\foundation.tab.js" />
+    <Content Include="JS\foundation\foundation.tooltip.js" />
+    <Content Include="JS\foundation\foundation.topbar.js" />
+    <Content Include="JS\jquery.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\vendor\fastclick.js" />
+    <Content Include="JS\vendor\jquery.cookie.js" />
+    <Content Include="JS\vendor\jquery.js" />
+    <Content Include="JS\vendor\modernizr.js" />
+    <Content Include="JS\vendor\placeholder.js" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
     <Folder Include="images\" />
-    <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
