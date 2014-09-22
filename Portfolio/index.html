@@ -3,25 +3,85 @@
 <head>
     <meta charset="utf-8" />
     <title>Jeff Geear a Portfolio</title>
-    <link href="CSS/normalize.css" rel="stylesheet" />
+    <link href="CSS/reset.css" rel="stylesheet" /> 
     <link href="CSS/foundation.min.css" rel="stylesheet" />
+    <link href="slick/slick.css" rel="stylesheet" />
     <link href="CSS/Styles.css" rel="stylesheet" />
 </head>
 <body>
 
     <header>
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Jeff Geear</a></h1>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li class="active"><a href="#">Right Button Active</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Right Button Dropdown</a>
+                        <ul class="dropdown">
+                            <li><a href="#">First link in dropdown</a></li>
+                            <li class="active"><a href="#">Active link in dropdown</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Left Nav Section -->
+                <ul class="left">
+                    <li><a href="#">Left Nav Button</a></li>
+                </ul>
+            </section>
+        </nav>
+            <img src="images/logo.png" alt="Logo">
+        
         <h1>Jeff Geear</h1>
         <h2>A Programmer's Portfolio</h2>
-        <p></p>
-    </header>
+        
+   
+    
+     </header>
+    <p>A Programmer's Mission is to create, acquire, and schedule superior content to engage user's and maximize distribution on all platforms.</p>
+    <div class="project-class">
+        <div><img src="images/band.png" alt="Viraltone"></div>
+        <div><img src="images/cms.png" alt="CMS"></div>
+        <div><img src="images/git.png" alt="GitHub repo"></div>
+    </div>
+    <div class="contact">
+        <a href="//www.facebook.com/jeffrey.geear"
+           rel="publisher" target="_top" style="text-decoration:none;">
+            <img src="images/facebook.png" alt="Facebook" />
+        </a>
+        <a href="//twitter.com/JMGeear"
+           rel="publisher" target="_top" style="text-decoration:none;">
+            <img src="images/twitter.png" alt="Twitter" />
+        </a>
+        <a href="//www.linkedin.com/pub/jeff-geear/46/19/330"
+           rel="publisher" target="_top" style="text-decoration:none;">
+            <img src="images/linkedin.png" alt="Linkedin" />
+        </a>
+        <a href="//plus.google.com/u/0/118373646343016388407?prsrc=3"
+           rel="publisher" target="_top" style="text-decoration:none;">
+            <img src="images/googleplus.png" alt="Google+" />
+        </a>  
+    </div>
 
 
     <footer>
-
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. &copy; 2014 Jeff Geear</small>
+    
+    
     </footer>
     <!--Javascript files-->
     <script src="JS/jquery.js"></script>
     <script src="JS/foundation.min.js"></script>
+    <script src="slick/slick.js"></script>
     <script>
     $(document).foundation();
     </script>
