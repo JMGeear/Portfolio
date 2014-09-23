@@ -1,9 +1,83 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <title>Jeff Geear a Portfolio</title>
+    <link href="CSS/reset.css" rel="stylesheet" />
+    <link href="CSS/foundation.min.css" rel="stylesheet" />
+    <link href="slick/slick.css" rel="stylesheet" />
+    <link href="CSS/Styles.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html">Home</a></h1>
+            </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+                <li class="active"><a href="about.html">About Me</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Extras</a>
+                    <ul class="dropdown">
+                        <li class="active"><a href="services.html">Services</a></li>
+                        <li class="active"><a href="contact.html">Contact Us</a></li>
+                        <li class="active"><a href="//github.com/JMGeear">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+                <li class="active"><a href="projects.html">Projects</a></li>
+            </ul>
+        </section>
+    </nav>
+    <header>
+        <div class="row">
+            <div class="medium-3 columns">
+                <img src="images/logo - Small.png" alt="Logo">
+            </div>
+            <div class="medium-9 columns">
+                <h1>Jeff Geear</h1>
+                <h2>A Programmer's Portfolio</h2>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <footer>
+        <div class="row">
+            <div class="medium-2 columns">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+            </div>
+            <div class="medium-10 columns">
+                <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. &copy; 2014 Jeff Geear<img src="images/logo - Small.png" style="width:30px;" /></small>
+            </div>
+        </div>
+
+    </footer>
+    <!--Javascript files-->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/foundation.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+    <script src="JS/main.js"></script>
 
 </body>
 </html>

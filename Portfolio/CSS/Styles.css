@@ -1,2 +1,20 @@
 ﻿body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFDC86;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
+
+.contact{
+   
+    border: 5px  solid black;
+    padding: 25px 25px 25px 25px;
+}
+
+footer{
+    padding-top: 50px;
+    
 }
