@@ -69,6 +69,7 @@
     <Content Include="package.json" />
     <Content Include="README.markdown" />
     <Content Include="slick.jquery.json" />
+    <None Include="Properties\PublishProfiles\Webdesign.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

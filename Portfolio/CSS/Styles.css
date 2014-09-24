@@ -1,17 +1,31 @@
 ﻿body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+body p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    padding: 30px 30px 30px 30px;
 }
 
 header {
     background-color: #FFDC86;
+}
+
+header h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
+
+header h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: 400;
 }
 
 .contact{
    
-    border: 5px  solid black;
-    padding: 25px 25px 25px 25px;
+    border: 2px  solid grey;
+    padding: 25px 0px 25px 25px;
 }
 
 footer{
