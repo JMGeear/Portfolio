@@ -1,11 +1,12 @@
 ﻿body {
-    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #f8f2e3;
 }
 
 body p {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: 400;
-    padding: 30px 30px 30px 30px;
+    padding: 10px 30px 15px 30px;
+
 }
 
 header {
@@ -20,6 +21,57 @@ header h1 {
 header h2 {
     font-family: 'Amatic SC', cursive;
     font-weight: 400;
+}
+
+.top-bar {
+    background-color: #786127;
+}
+
+.top-bar-section li a:not(.button)  {
+    
+    background-color: #786127;
+   }
+
+.top-bar .name h1 a {
+    background: #786127;
+    color: white; 
+}
+
+.toggle-topbar a {
+    background: #786127;
+}
+
+.top-bar-section ul li.active>a {
+      background: #C4A454; 
+
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #FFDC86;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #C4A454;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #786127;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+     background: #C4A454; 
+}
+
+.name h1 {
+    background: #786127;
+}
+
+section img {
+    padding-top:25px;
+}
+
+button, .button {
+    background-color: #4D5978;
 }
 
 .contact{
