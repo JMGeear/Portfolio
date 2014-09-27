@@ -1,4 +1,6 @@
 ﻿body {
+    background-image:url(../images/jeffwide.jpg);
+    background-size: cover;
     background-color: #f8f2e3;
 }
 
@@ -6,6 +8,10 @@ body p {
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: 400;
     padding: 10px 30px 15px 30px;
+
+}
+
+.project-class {
 
 }
 
