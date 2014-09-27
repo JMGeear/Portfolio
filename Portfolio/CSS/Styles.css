@@ -1,55 +1,128 @@
 ﻿body {
-    background-image:url(../images/jeffwide.jpg);
+    background-image: url(../images/jeffwide.jpg);
     background-size: cover;
     background-color: #f8f2e3;
 }
 
-body p {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-weight: 400;
-    padding: 10px 30px 15px 30px;
+    body p {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-weight: 400;
+        padding: 10px 30px 15px 30px;
+    }
 
+/*email form*/
+#contact_form_holder {
+    font-family: 'Verdana';
+    background-color:antiquewhite;
+    width: 350px;
+    padding: 30px;
+    border: solid grey;
+    margin: 0px;
 }
 
-.project-class {
-
+#cf_submit_p {
+    text-align: right;
 }
+
+.error {
+    display: none;
+    padding: 5px;
+    color: #D8000C;
+    font-size: 12px;
+    background-color: #FFBABA;
+    border: solid 1px #e06d6d;
+}
+
+.success {
+    display: none;
+    padding: 5px;
+    color: #044406;
+    font-size: 12px;
+    background-color: #B7FBB9;
+    border: solid 1px #65d668;
+}
+
+#contact_logo {
+    vertical-align: middle;
+}
+
+.error img {
+    vertical-align: top;
+}
+
+.contact_name, .contact_email, .contact_subject, .contact_message {
+    font-size: 14px;
+    width: 388px;
+    max-width: 280px;
+    background: #FFDC86;
+    border: solid 1px #505050;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+#topic {
+    width: 100%;
+    font-size: 12px;
+    background: #FFDC86;
+    border: solid 1px #505050;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.contact_message {
+    height: 200px;
+}
+
+select, input, textarea {
+    outline: none;
+    background: #4D5978;
+    border: solid 1px #505050;
+}
+
+input {
+    color: white;
+}
+
+    select:focus, input:focus, textarea:focus {
+        border: solid 1px #0066FF;
+        -webkit-box-shadow: #0066FF 0px 0px 5px;
+    }
+
 
 header {
     background-color: #FFDC86;
 }
 
-header h1 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 400;
-}
+    header h1 {
+        font-family: 'Amatic SC', cursive;
+        font-weight: 400;
+    }
 
-header h2 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 400;
-}
+    header h2 {
+        font-family: 'Amatic SC', cursive;
+        font-weight: 400;
+    }
 
+/*NAV styling*/
 .top-bar {
     background-color: #786127;
 }
 
-.top-bar-section li a:not(.button)  {
-    
+.top-bar-section li a:not(.button) {
     background-color: #786127;
-   }
+}
 
 .top-bar .name h1 a {
     background: #786127;
-    color: white; 
+    color: white;
 }
 
 .toggle-topbar a {
     background: #786127;
 }
 
-.top-bar-section ul li.active>a {
-      background: #C4A454; 
-
+.top-bar-section ul li.active > a {
+    background: #C4A454;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
@@ -65,28 +138,30 @@ header h2 {
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-     background: #C4A454; 
+    background: #C4A454;
 }
 
 .name h1 {
     background: #786127;
 }
 
+
+/*image styling*/
 section img {
-    padding-top:25px;
+    padding-top: 25px;
 }
 
+/*button styling*/
 button, .button {
     background-color: #4D5978;
 }
 
-.contact{
-   
-    border: 2px  solid grey;
+/*contact panel styling*/
+.contact {
+    border: 2px solid grey;
     padding: 25px 0px 25px 25px;
 }
 
-footer{
+footer {
     padding-top: 50px;
-    
 }

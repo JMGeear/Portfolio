@@ -70,6 +70,7 @@
     <Content Include="README.markdown" />
     <Content Include="slick.jquery.json" />
     <None Include="Properties\PublishProfiles\Webdesign.pubxml" />
+    <Content Include="send_email.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
