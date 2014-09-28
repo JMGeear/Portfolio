@@ -13,7 +13,7 @@
 /*email form*/
 #contact_form_holder {
     font-family: 'Verdana';
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     width: 350px;
     padding: 30px;
     border: solid grey;
@@ -93,15 +93,13 @@ header {
     background-color: #FFDC86;
 }
 
-    header h1 {
+    header h1, h2 {
         font-family: 'Amatic SC', cursive;
         font-weight: 400;
+        
     }
 
-    header h2 {
-        font-family: 'Amatic SC', cursive;
-        font-weight: 400;
-    }
+
 
 /*NAV styling*/
 .top-bar {
@@ -125,6 +123,10 @@ header {
     background: #C4A454;
 }
 
+.top-bar-section ul li {
+    background: #786127;
+}
+
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #FFDC86;
 }
@@ -144,7 +146,6 @@ header {
 .name h1 {
     background: #786127;
 }
-
 
 /*image styling*/
 section img {
